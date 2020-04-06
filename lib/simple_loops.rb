@@ -34,9 +34,9 @@ end
 def return_string_array(array)
   
   returnArray = Array.new
-   index = 0
+  index = 0
   while (index < array.length) do 
-    puts array[index]
+    returnArray.push() array[index]
     index += 1
   end
 
