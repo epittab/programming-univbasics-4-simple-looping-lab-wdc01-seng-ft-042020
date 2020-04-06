@@ -33,7 +33,7 @@ end
   
 def return_string_array(array)
   
-  returnArray = new Array
+  returnArray = Array.new
    index = 0
   while (index < array.length) do 
     puts array[index]
