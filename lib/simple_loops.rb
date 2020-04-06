@@ -40,5 +40,4 @@ def return_string_array(array)
     index += 1
   end
 
-  
 end
