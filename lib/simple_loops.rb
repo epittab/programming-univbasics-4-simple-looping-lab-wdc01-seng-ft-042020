@@ -39,5 +39,6 @@ def return_string_array(array)
     returnArray.push(array[index].to_s) 
     index += 1
   end
-
+  return returnArray
+  
 end
