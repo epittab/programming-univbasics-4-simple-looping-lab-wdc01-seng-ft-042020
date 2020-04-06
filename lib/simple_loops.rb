@@ -36,7 +36,7 @@ def return_string_array(array)
   returnArray = Array.new
   index = 0
   while (index < array.length) do 
-    returnArray.push() array[index]
+    returnArray.push(array[index].to_s) 
     index += 1
   end
 
