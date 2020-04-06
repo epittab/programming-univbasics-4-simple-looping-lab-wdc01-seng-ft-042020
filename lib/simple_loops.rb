@@ -17,9 +17,6 @@ def loop_message_n_times(message, int)
     puts message
     int -= 1
   end
-  
-end
-  
     
 end
     
