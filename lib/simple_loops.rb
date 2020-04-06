@@ -31,7 +31,14 @@ def output_array(array)
 
 end
   
-def return_string_array()
+def return_string_array(array)
   
+  returnArray = new Array
+   index = 0
+  while (index < array.length) do 
+    puts array[index]
+    index += 1
+  end
+
   
 end
